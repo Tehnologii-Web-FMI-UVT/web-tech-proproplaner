@@ -1,0 +1,242 @@
+.page-home {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #a7a7a7;
+        }
+
+.top {
+    width: 100vw;
+    background-color: #ffee8c;
+    display: flex;
+    height: 10vh;
+    border-bottom: 1px solid black;
+    background-size: contain; /* Fit the image within the container */
+    background-repeat: repeat-x; /* Repeat the image horizontally */
+    background-position: center; 
+   
+}
+.top h1 {
+  margin-top: auto;
+  margin-bottom: auto;
+  color: black; /* Set text color to black */
+  text-shadow: 2px 2px 4px rgb(0, 0, 255); /* Add blue shadow with a specific offset and color */
+}
+
+
+.content-wrapper-homepage{
+    display: flex;
+    width: 100vw;
+    height: calc(100vh - 10vh);
+
+}
+.content-wrapper-homepage h1{
+    color: rgb(0, 0, 0);
+    font-size:4vh;
+    text-stroke: 2px black;
+}
+
+.logo {
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 5vh;
+    height: 5vh;
+    object-fit: cover;
+    margin-right: 20px; /* Adjusted margin-right for spacing */
+}
+
+.name {
+    display: inline;
+    margin-left: auto;
+    margin-right: 2vw;
+    margin-top: auto;
+    margin-bottom: auto;
+    color: white;
+    -webkit-text-stroke: 2px black; /* For Chrome and Safari */
+    text-stroke: 2px black;
+}
+
+.baraLaterala{
+    display: flex;
+    flex: 1;
+    max-width: 25vw;
+    height: 100%; /* Take up full height of content-wrapper */
+    
+    border-right: 1px solid #ccc; 
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+    background-color: #fff7cb; /* Set a transparent background color */
+    backdrop-filter: blur(2px); /* Add blur effect */
+} 
+
+.SchedualDiv{
+    display: flex;
+    background-color: #cacaca;
+    flex: 1;
+    height: 100%; /* Take up full height of content-wrapper */
+    border: 1px solid #bdbdbd; 
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+}
+.daySchedual {
+    display: flex;
+    flex: 1;
+    max-width: 20vw;
+    height: 100%;
+    border-left: 1px solid #000000;
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+    background-color: #a7a7a7; /* Set a transparent background color */
+    backdrop-filter: blur(2px); /* Add blur effect */
+}
+
+.calendarDiv{
+    max-width: 50vw;
+    margin-top: 10%;
+    
+}
+.react-calendar {
+  padding: 20px;
+    width: 30vw; /* Make the calendar take up the full width of calendarDiv */
+    max-width: 100%; /* Ensure the calendar doesn't exceed the width of its container */
+    border: none; /* Remove the default calendar border */
+}
+
+
+.butoane{
+    width: 100%;
+   
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.button-dash{
+    width: 100%;
+    border: 1px solid black;
+    color: #222;
+    padding: 30px; 
+    font-size: 24px;
+    background-color: white;
+    margin-top: 10px;
+}
+
+.button-dash:hover {
+  background-color: #3498db; /* Change the background color on hover */
+  color: white; /* Change text color on hover */
+}
+
+/* Calendar Container */
+.react-calendar {
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%;
+  height: 30vh;
+  background-color: #fff;
+  color: #222;
+  border-radius: 8px;
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.125em;
+}
+
+/* Calendar Navigation Bar */
+.react-calendar__navigation {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+
+/* Calendar Navigation Button */
+.react-calendar__navigation button {
+  color: #3498db; /* Blue color */
+  min-width: 44px;
+  background: none;
+  font-size: 16px;
+  margin-top: 8px;
+}
+
+.react-calendar__navigation button:enabled:hover,
+.react-calendar__navigation button:enabled:focus {
+  background-color: #f8f8fa;
+}
+
+.react-calendar__navigation button[disabled] {
+  background-color: #f0f0f0;
+}
+
+abbr[title] {
+  text-decoration: none;
+}
+
+.react-calendar__tile:enabled:hover,
+.react-calendar__tile:enabled:focus {
+  background: #f8f8fa;
+  color: #3498db; /* Blue color */
+  border-radius: 6px;
+}
+
+.react-calendar__tile--now {
+  background: #3498db33; /* Light blue color with transparency */
+  border-radius: 6px;
+  font-weight: bold;
+  color: #3498db; /* Blue color */
+}
+
+.react-calendar__tile--now:enabled:hover,
+.react-calendar__tile--now:enabled:focus {
+  background: #3498db33; /* Light blue color with transparency */
+  border-radius: 6px;
+  font-weight: bold;
+  color: #3498db; /* Blue color */
+}
+
+.react-calendar__tile--hasActive:enabled:hover,
+.react-calendar__tile--hasActive:enabled:focus {
+  background: #f8f8fa;
+}
+
+.react-calendar__tile--active {
+  background: #3498db; /* Blue color */
+  border-radius: 6px;
+  font-weight: bold;
+  color: white;
+}
+
+.react-calendar__tile--active:enabled:hover,
+.react-calendar__tile--active:enabled:focus {
+  background: #3498db; /* Blue color */
+  color: white;
+}
+
+.react-calendar--selectRange .react-calendar__tile--hover {
+  background-color: #f8f8fa;
+}
+
+.react-calendar__tile--range {
+  background: #f8f8fa;
+  color: #3498db; /* Blue color */
+  border-radius: 0;
+}
+
+.react-calendar__tile--rangeStart {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  border-top-left-radius: 6px;
+  border-bottom-left-radius: 6px;
+  background: #3498db; /* Blue color */
+  color: white;
+}
+
+.react-calendar__tile--rangeEnd {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  border-top-right-radius: 6px;
+  border-bottom-right-radius: 6px;
+  background: #3498db; /* Blue color */
+  color: white;
+}

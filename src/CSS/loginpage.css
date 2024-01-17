@@ -1,0 +1,72 @@
+/* LoginPage.css */
+
+.body-loginpage{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(45deg, #3498db, #9b59b6);
+}
+/* Style for the overall login page container */
+.login-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+
+/* Style for each form container (login and register) */
+.login-form,
+.register-form {
+    width: 20vw;
+    background-color: #ffffff;
+    border: 1px solid #0064fa;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column; /* Set to column to stack elements vertically */
+    align-items: center; /* Center items horizontally */
+}
+
+/* Style for form labels */
+label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+/* Style for form inputs */
+input {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 16px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+/* Style for form buttons */
+.button-login {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* Center the button under the input fields */
+.button-login {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.button-login:hover {
+    background-color: #0056b3;
+}
+
+

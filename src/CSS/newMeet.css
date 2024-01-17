@@ -1,0 +1,125 @@
+.popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.popup-content {
+  background: #fff;
+  padding: 30px;
+  font-size: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  max-width: 500px;
+  width: 100%;
+  /* position: relative; */
+}
+
+.close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+
+.newMeetForm {
+  display: flex;
+  flex-direction: column;
+  max-width: 300px; /* Adjust the maximum width as needed */
+  margin: 0 auto; /* Center the form horizontally */
+}
+
+.pereche-newMeet {
+  margin-bottom: 10px; /* Adjust the margin between each input */
+}
+
+.NewMeetLabel {
+  margin-bottom: 5px;
+}
+
+.InputNewMeet {
+  width: 100%;
+  padding: 8px;
+  font-size: 20px;
+  box-sizing: border-box;
+  margin-bottom: 8px;
+}
+
+.CancelButton-NewMeet, .SubmitButton-NewMeet{
+    margin-top: 10px;
+}
+
+.NewMeet-LinkBox{
+    display: flex;
+    flex-direction: row;
+    max-width: 300px; /* Adjust the maximum width as needed */
+    margin: 0 auto; /* Center the form horizontally */
+  }
+
+.CancelButton-NewMeet{
+    
+
+    display: inline-block;
+    outline: none;
+    cursor: pointer;
+    font-size: 14px;
+    line-height: 1;
+    border-radius: 500px;
+    transition-property: background-color,border-color,color,box-shadow,filter;
+    transition-duration: .3s;
+    border: 1px solid transparent;
+    letter-spacing: 2px;
+    min-width: 160px;
+    text-transform: uppercase;
+    white-space: normal;
+    font-weight: 700;
+    text-align: center;
+    padding: 17px 48px;
+    color: #fff;
+    background-color: #d71e1e;
+    height: 48px;
+    :hover{
+        transform: scale(1.04);
+        background-color: #e02121;
+    }
+
+
+}
+
+
+.SubmitButton-NewMeet{
+    
+    display: inline-block;
+    outline: none;
+    cursor: pointer;
+    font-size: 14px;
+    line-height: 1;
+    border-radius: 500px;
+    transition-property: background-color,border-color,color,box-shadow,filter;
+    transition-duration: .3s;
+    border: 1px solid transparent;
+    letter-spacing: 2px;
+    min-width: 10px;
+    text-transform: uppercase;
+    white-space: normal;
+    font-weight: 700;
+    text-align: center;
+    padding: 17px 48px;
+    color: #fff;
+    background-color: #1ED760;
+    height: 48px;
+    :hover{
+        transform: scale(1.04);
+        background-color: #21e065;
+    }
+
+}
+
