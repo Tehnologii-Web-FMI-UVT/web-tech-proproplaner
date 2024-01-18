@@ -1,0 +1,74 @@
+ul {
+    list-style-type: none;
+    padding: 0;
+    width: 80%;
+}
+
+.deleteButton {
+  background-color: #ff6347;
+  color: #fff; 
+  padding: 10px 15px;
+  border: none;
+  margin-top: auto;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+
+}
+
+.deleteButton:hover {
+  background-color: #d23c2a;
+}
+
+  li {
+    margin-bottom: 10px;
+    padding: 10px;
+
+    background-color: aliceblue;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    transition: box-shadow 0.3s;
+  }
+  
+  .meetingName {
+    font-weight: bold;
+    font-size: 1.2em;
+    cursor: pointer;
+  }
+  
+  .meetingDate {
+    color: #555;
+  }
+  
+  li:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  }
+  .showSelectedMeeting {
+    width: 50%;
+    height: 70%;
+    margin: auto;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center horizontally */
+  }
+  
+  .showSelectedMeeting h2 {
+    color: #333;
+    font-size: 50px;
+  }
+  
+  .showSelectedMeeting p {
+    margin: 8px 0;
+    color: #666;
+  }
+  
+  .showSelectedMeeting a {
+    color: #0066cc;
+    text-decoration: none;
+  }
+  
